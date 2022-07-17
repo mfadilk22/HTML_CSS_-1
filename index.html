@@ -1,115 +1,184 @@
 <!DOCTYPE html>
 <html lang="id">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="M Fadil Khairunnas">
-    <meta name="description" content="Belajar HTML dasar homepage">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/icon/Logo2-02.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Homepage</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="M Fadil Khairunnas">
+        <meta name="description" content="Belajar HTML dasar homepage">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/icon/Logo2-02.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Homepage</title>
 
-</head>
+    </head>
 
-<body>
-    <header>
-        <img src="assets/img/img01.jpg" alt="Sunset at beach" width="200" height="70">
-        <h1>Belajar Front End 2022</h1>
+    <body>
+        <header>
+            <img src="assets/img/img01.jpg" alt="Sunset at beach" width="200" height="70">
+            <h1>Belajar Front End 2022</h1>
 
-        <nav aria-label="primary-navigation">
-            <p>Content: </p>
-            <ol>
-                <li><a href="#belajar_html">Belajar HTML</a></li>
-                <li><a href="#webpage">Webpage</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#resources">Resources</a></li>
-            </ol>
-        </nav>
+            <nav aria-label="primary-navigation">
+                <p>Content: </p>
+                <ol>
+                    <li><a href="#belajar_html">Belajar HTML</a></li>
+                    <li><a href="#webpage">Webpage</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ol>
+            </nav>
 
-        <hr>
-    </header>
+            <hr>
+        </header>
 
-    <main>
-        <article id="belajar_html">
-            <h2>Tahap 1 - Belajar HTML dasar</h2>
+        <main>
+            <article id="belajar_html">
+                <h2>Tahap 1 - Belajar HTML dasar</h2>
+                <section>
+                    <h3>Contoh kode HTML dasar</h3>     
+                    <code>&lt;h1&gt; Hello World! &lt;/h1&gt;</code>
+
+                    <p>Belajar konsep dasar, HTML5, Semantic, dsb</p>
+                    <aside>
+                        <details>
+                            <summary> <mark>Durasi belajar</mark> per hari</summary>
+                            <p>Mulai belajar <time datetime="09:00"> jam 9</time>, selesai <time datetime="12:00"> 12</time>. Total belajar adalah <time datetime="PT3H">3 jam</time></p>
+                        </details>
+                    </aside>
+                        <table>
+                            <caption>Daftar Kegiatan</caption>
+                            <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th scope="col">Waktu</th>
+                                <th scope="col">Kegiatan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th rowspan="3" scope="row">Pagi</th>
+                                <td>
+                                    <time datetime="09:00">09:00</time> - <time datetime="10:00">10:00</time>
+                                </td>
+                                <td>
+                                    Review dan pemanasan pagi
+                                </td>
+                            </tr>
+                            <tr>                                
+                                <td>
+                                    <time datetime="10:00">10:00</time> - <time datetime="11:00">11:00</time>
+                                </td>
+                                <td>
+                                    Masuk materi pembelajaran
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <time datetime="11:00">11:00</time> - <time datetime="12:00">12:00</time>
+                                </td>
+                                <td>
+                                    Latihan
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">Istirahat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Siang</th>
+                                <td>
+                                    <time datetime="13:30">13:30</time> - <time datetime="17:00">17:00</time>
+                                </td>
+                                <td>
+                                    UI/UX atau Skripsi
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2" scope="row">Waktu lainnya</th>
+                                <td colspan="2">Makan</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Olahraga</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Thats my daily activities</td>
+                            </tr>
+                        </tfoot>
+                        </table>  
+                                          
+                </section>
+            </article>
+
+            <hr>
+
+            <article id="webpage">
+                <h2>Tahap 2 - Simple webpage with helps from <abbr title="Mozille Developer Network">
+                        <a href="https://developer.mozilla.org/en-US/">MDN</a></abbr> to basics with
+                    <em><strong>things to improve:</strong></em></h2>
+                <ol>
+                    <li>
+                        <p>... Basic code</p>
+                        <figure>
+                            <img src="assets/img/img01.jpg" alt="Sunset at beach" width="800" height="500">
+                            <figcaption>
+                                Sunset di pantai Ujong Blang
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>... Layouting</li>
+                    <li>... Typography</li>
+                    <li>... colors</li>
+                </ol>
+            </article>
+
+            <hr>
+
+            <article id="portfolio">
+                <h2>Tahap 3 - Portfolio webpage</h2>
+                <p>it should be aesthetically top notch. It contains:</p>
+                <ul>
+                    <li>Home Section</li>
+                    <li>UI/UX Showcase</li>
+                    <li>My writing</li>
+                    <li>Machine Learning and Data Related</li>
+                </ul>
+            </article>
+
+            <hr>
+
+            <article id="resources">
+                <!-- ?More resources to come -->
+                <h2>Tahap 4 - Find great resourches</h2>
+                <p>Anything beneficial from articles to online courses</p>
+                <dl>
+                    <dt>Youtube</dt>
+                    <dd>Online videos</dd>
+
+                    <dt>Freecodecamp</dt>
+                    <dd>Step by step for better understanding</dd>
+
+                    <dt>Documentation</dt>
+                    <dd>Dive deep for related topics</dd>
+                </dl>
+            </article>
+
+            <hr>
             <figure>
-                <figcaption>Contoh kode HTML dasar</figcaption>
-                <code>&lt;h1&gt; Hello World! &lt;/h1&gt;</code>
+                <img src="assets/img/img02.jpg" alt="Living Room" width="800" height="500" loading="lazy">
+                <figcaption>
+                    Suasana ruang tamu dengan tema modern
+                </figcaption>
             </figure>
-            <p>Belajar konsep dasar, HTML5, Semantic, dsb</p>
-        </article>
+        </main>
+        <footer>
 
-        <hr>
+            <p>&lt;&lt;&lt; &copy; <a href="tentang.html">M Fadil Khairunnas</a> &gt;&gt;&gt;</p>
 
-        <section id="webpage">
-            <h2>Tahap 2 - Simple webpage with helps from <abbr title="Mozille Developer Network">
-                    <a href="https://developer.mozilla.org/en-US/">MDN</a></abbr> to basics with
-                <em><strong>things to improve:</strong></em></h2>
-            <ol>
-                <li>
-                    <p>... Basic code</p>
-                    <figure>
-                        <img src="assets/img/img01.jpg" alt="Sunset at beach" width="800" height="500">
-                        <figcaption>
-                            Sunset di pantai Ujong Blang
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>... Layouting</li>
-                <li>... Typography</li>
-                <li>... colors</li>
-            </ol>
-        </section>
+            <hr>
+            <p><a href="#">Kembali ke atas</a></p>
 
-        <hr>
-
-        <section id="portfolio">
-            <h2>Tahap 3 - Portfolio webpage</h2>
-            <p>it should be aesthetically top notch. It contains:</p>
-            <ul>
-                <li>Home Section</li>
-                <li>UI/UX Showcase</li>
-                <li>My writing</li>
-                <li>Machine Learning and Data Related</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section id="resources">
-            <!-- ?More resources to come -->
-            <h2>Tahap 4 - Find great resourches</h2>
-            <p>Anything beneficial from articles to online courses</p>
-            <dl>
-                <dt>Youtube</dt>
-                <dd>Online videos</dd>
-
-                <dt>Freecodecamp</dt>
-                <dd>Step by step for better understanding</dd>
-
-                <dt>Documentation</dt>
-                <dd>Dive deep for related topics</dd>
-            </dl>
-        </section>
-
-        <hr>
-        <figure>
-            <img src="assets/img/img02.jpg" alt="Living Room" width="800" height="500" loading="lazy">
-            <figcaption>
-                Suasana ruang tamu dengan tema modern
-            </figcaption>
-        </figure>
-    </main>
-    <footer>
-
-        <p>&lt;&lt;&lt; &copy; <a href="tentang.html">M Fadil Khairunnas</a> &gt;&gt;&gt;</p>
-
-        <hr>
-        <p><a href="#">Kembali ke atas</a></p>
-
-    </footer>
-</body>
+        </footer>
+    </body>
 
 </html>
